@@ -26,9 +26,6 @@ def main():
             "https://videos.pexels.com/video-files/4459705/4459705-hd_1920_1080_24fps.mp4"))
            # LOCAL RELATIVE:
            # "zarove_platter.mp4"))
-           # LOCAL ABSOLUTE:
-           # "C:/Users/kalar/Documents/CODEzen/WEBzen/morphmusiccompany.com_20250813/" +
-           # "public_html/mbs_audio/zarove/zarove_platter.mp4"))
     video_widget = QVideoWidget()
     player.setVideoOutput(video_widget)
     video_widget.show()
